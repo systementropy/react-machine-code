@@ -1,0 +1,33 @@
+.TaskContainer{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+.TaskItem{
+	position: relative;
+	margin: 10px;
+	box-shadow: 1px 1px 1px 1px #33333347;
+	
+	text-align: left;
+}
+.TaskItem h4{
+	margin: 0;
+	background: #5f58b5;
+	color: #FFF;
+	padding: 8px 5px;
+}
+.actionContainer{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	width: 70px;
+	padding: 5px;
+	justify-content: space-between;
+}
+.actionContainer span{
+	color: #999;
+	font-size: 11px;
+	cursor: pointer;
+}
